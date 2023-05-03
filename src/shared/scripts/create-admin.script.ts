@@ -1,7 +1,7 @@
 import { UsersService } from '../../users/users.service';
 
 import { NestFactory } from '@nestjs/core';
-import { UsersModule } from 'src/users/users.module';
+import { UsersModule } from '../../users/users.module';
 
 export async function createAdminScript() {
   const application = await NestFactory.createApplicationContext(UsersModule);

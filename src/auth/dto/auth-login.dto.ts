@@ -1,5 +1,3 @@
-// src/articles/dto/create-article.dto.ts
-
 import { User } from '@prisma/client';
 import { IsNotEmpty, IsString } from 'class-validator';
 
